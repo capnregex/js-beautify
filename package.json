@@ -1,0 +1,17 @@
+{
+  "author": "Einar Lielmanis <einars@gmail.com> (http://spicausis.lv)",
+  "name": "js-beautify",
+  "description": "Beautifier for javascript",
+  "version": "0.0.0",
+  "homepage": "http://jsbeautifier.org/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/einars/js-beautify.git"
+  },
+  "main": "./beautify.js",
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
