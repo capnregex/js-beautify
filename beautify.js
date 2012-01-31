@@ -53,8 +53,6 @@
 
 */
 
-
-
 function js_beautify(js_source_text, options) {
 
     var input, output, token_text, last_type, last_text, last_last_text, last_word, flags, flag_store, indent_string;
@@ -1214,5 +1212,8 @@ function js_beautify(js_source_text, options) {
 
 // Add support for CommonJS. Just put this file somewhere on your require.paths
 // and you will be able to `var js_beautify = require("beautify").js_beautify`.
-if (typeof exports !== "undefined")
+if (typeof exports !== "undefined") {
     exports.js_beautify = js_beautify;
+}
+
+

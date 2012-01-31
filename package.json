@@ -9,6 +9,9 @@
     "url": "git://github.com/einars/js-beautify.git"
   },
   "main": "./beautify.js",
+  "scripts": {
+    "beautify": "./bin/beautify"
+  },
   "engines": {
     "node": "~0.6.6"
   },
